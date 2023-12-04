@@ -1,0 +1,26 @@
+/* Write your code here. */
+
+.list-item {
+  border: 2px solid #d7daeb;
+  margin: 3px;
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+.faq-container {
+  display: flex;
+  justify-content: space-between;
+}
+.plus-minus-button {
+  border: none;
+  background-color: transparent;
+}
+.plus-minus-img {
+  height: 20px;
+  width: 20px;
+}
+.answerText {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 2px solid #d7daeb;
+}

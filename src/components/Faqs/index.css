@@ -1,0 +1,20 @@
+/* Write your code here. */
+.bg-container1 {
+  height: 100px;
+  background-color: #f1f5f8;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container2 {
+  width: 100%;
+  padding: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.faqs-heading {
+  text-align: center;
+  color: #cd8805;
+}
