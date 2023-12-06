@@ -4,6 +4,8 @@ import FaqItem from '../FaqItem'
 import './index.css'
 
 class Faqs extends Component {
+  state = {}
+  
   render() {
     const {faqsList} = this.props
     return (
