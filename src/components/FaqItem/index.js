@@ -2,8 +2,8 @@
 import './index.css'
 
 const FaqItem = props => {
-  const {faqsList} = props
-  const {questionText, answerText} = faqsList
+  const {faqDetails} = props
+  const {questionText, answerText} = faqDetails
 
   return (
     <li className="list-item">
