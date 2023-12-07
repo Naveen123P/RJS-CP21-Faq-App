@@ -11,13 +11,13 @@ const FaqItem = props => {
         <h1 className="faq">{questionText}</h1>
         <button type="button" className="plus-minus-button">
           <img
-            src="https://assets.ccbp.in/frontend/react-js/faqs-minus-icon-img.png"
-            alt="minus"
+            src="https://assets.ccbp.in/frontend/react-js/faqs-plus-icon-img.png"
+            alt="plus"
             className="plus-minus-img"
           />
         </button>
-        <p className="answerText">{answerText}</p>
       </div>
+      <p className="answerText">{answerText}</p>
     </li>
   )
 }
