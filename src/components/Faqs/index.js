@@ -4,10 +4,10 @@ import FaqItem from '../FaqItem'
 import './index.css'
 
 class Faqs extends Component {
-  state = {}
-  
   render() {
     const {faqsList} = this.props
+    console.log(faqsList)
+
     return (
       <div className="bg-container1">
         <div className="bg-container2">
