@@ -6,6 +6,7 @@
   width: 100%;
   padding: 10px 5px;
   border-radius: 5px;
+  list-style-type: none;
 }
 .faq-container {
   display: flex;
