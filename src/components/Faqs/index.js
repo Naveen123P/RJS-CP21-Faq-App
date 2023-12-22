@@ -4,7 +4,14 @@ import FaqItem from '../FaqItem'
 import './index.css'
 
 class Faqs extends Component {
+  state = {isIconClicked: false}
+
+  onChangeIconStatus = () => {
+    this.setState(prevState => ({isIconClicked: !prevState.isIconClicked}))
+  }
+
   render() {
+    const {isIconClicked} = this.state
     const {faqsList} = this.props
     console.log(faqsList)
 
@@ -14,7 +21,12 @@ class Faqs extends Component {
           <h1 className="faqs-heading">FAQs</h1>
           <ul>
             {faqsList.map(each => (
-              <FaqItem key={each.id} faqDetails={each} />
+              <FaqItem
+                key={each.id}
+                faqDetails={each}
+                onChangeIconStatus={this.onChangeIconStatus}
+                isIconClicked1={isIconClicked}
+              />
             ))}
           </ul>
         </div>
